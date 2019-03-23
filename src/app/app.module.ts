@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EditorComponent } from './editor/editor.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EditorComponent
+    EditorComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
