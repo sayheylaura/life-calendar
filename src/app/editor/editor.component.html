@@ -1,11 +1,11 @@
 <h2>Editor</h2>
 
 <label for="date">
-  <span>Fecha</span>
+  <span>Date</span>
   <input type="date" id="date" name="date" />
 </label>
 
-<div>Estado</div>
+<div>Status</div>
 
 <label for="happy">
   <input type="checkbox" id="happy" name="mood" value=":)" />
@@ -18,10 +18,14 @@
 </label>
 
 <label for="message">
-  <span>Mensaje</span>
-  <input type="text" id="message" name="message" placeholder="¿Por qué es un buen día?" />
+  <span>Message</span>
+  <input type="text" id="message" name="message" placeholder="Why are you happy today?" />
 </label>
 
-<button type="button">Guardar</button>
+<button type="button">
+  <a routerLink="/calendar">Save</a>
+</button>
 
-<button type="button">Cancelar</button>
+<button type="button">
+  <a routerLink="/calendar">Cancel</a>
+</button>
