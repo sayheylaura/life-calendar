@@ -1,0 +1,62 @@
+.section__wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section__title {
+  margin: 0;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn--add {
+  margin: 30px 0;
+  background-color: rgb(24, 160, 85);
+  font-size: 20px;
+}
+
+.link__router {
+  color: white;
+}
+
+.faces__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.faces__item {
+  margin: 10px;
+  padding: 13px 0;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.happy {
+  background-color: yellow;
+  color: #535353;
+}
+
+.sad {
+  background-color: red;
+  color: white;
+}

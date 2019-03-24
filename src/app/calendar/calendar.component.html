@@ -8,7 +8,12 @@
   </button>
 
   <ul class="faces__list">
-    <li class="faces__item" *ngFor="let face of faces">
+    <li
+      class="faces__item"
+      [class.happy]="face === ':)'"
+      [class.sad]="face === ':('"
+      *ngFor="let face of faces"
+    >
       {{face}}
     </li>
   </ul>

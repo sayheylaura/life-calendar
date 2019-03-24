@@ -3,24 +3,27 @@
 
   <label for="date" class="input__label">
     <span class="input__label-title">Date</span>
-    <input type="date" id="date" name="date" (change)="onChange($event)" />
+    <input type="date" id="date" name="date" class="input__field" (change)="onChange($event)" />
   </label>
 
   <div class="input__label-title">Status</div>
 
-  <label for="happy" class="input__label input__label--checkbox">
-    <input type="checkbox" id="happy" name="mood" value=":)" (change)="onChange($event)" />
-    <span>:)</span>
-  </label>
+  <div class="mood__wrapper">
+    <label for="happy" class="input__label input__label--checkbox">
+      <input type="checkbox" id="happy" name="mood" value=":)" (change)="onChange($event)" />
+      <span>:)</span>
+    </label>
 
-  <label for="sad" class="input__label input__label--checkbox">
-    <input type="checkbox" id="sad" name="mood" value=":(" (change)="onChange($event)" />
-    <span>:(</span>
-  </label>
+    <label for="sad" class="input__label input__label--checkbox">
+      <input type="checkbox" id="sad" name="mood" value=":(" (change)="onChange($event)" />
+      <span>:(</span>
+    </label>
+  </div>
 
   <label for="message" class="input__label">
     <span class="input__label-title">Message</span>
-    <input type="text" id="message" name="message" placeholder="Why are you happy today?" class="input__field" (input)="onChange($event)" />
+    <input type="text" id="message" name="message" placeholder="Why are you happy today?" class="input__field"
+      (input)="onChange($event)" />
   </label>
 
   <button type="button" class="btn btn--save" (click)="onClick($event)">

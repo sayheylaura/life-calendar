@@ -1,0 +1,74 @@
+.section__wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section__title {
+  margin: 0;
+  text-align: center;
+}
+
+.input__label {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__label-title {
+  margin: 5px 0;
+  font-weight: 700;
+}
+
+.mood__wrapper {
+  display: flex;
+}
+
+.input__label--checkbox {
+  margin: 0 20px 0 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input__field {
+  padding: 8px 20px;
+  border: 1px solid #a2a2a2;
+  border-radius: 5px;
+  font-family: "Comfortaa", cursive;
+
+  &:focus {
+    box-shadow: 0 0 10px 2px (rgba(0, 0, 0, 0.151));
+    outline: none;
+  }
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn--save {
+  margin-top: 30px;
+  background-color: rgb(24, 160, 85);
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn--cancel {
+  background-color: white;
+}
+
+.link__router {
+  color: rgb(24, 160, 85);
+  text-decoration: none;
+}
