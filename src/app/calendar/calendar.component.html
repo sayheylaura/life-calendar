@@ -1,13 +1,15 @@
-<h2>Calendar</h2>
+<section class="section__wrapper">
+  <h2 class="section__title">Calendar</h2>
 
-<button type="button">
-  <a routerLink="/editor">
-    <i class="fas fa-plus"></i>
-  </a>
-</button>
+  <button type="button" class="btn btn--add">
+    <a class="link__router" routerLink="/editor">
+      <i class="fas fa-plus"></i>
+    </a>
+  </button>
 
-<ul>
-  <li *ngFor="let face of faces">
-    {{face}}
-  </li>
-</ul>
+  <ul class="faces__list">
+    <li class="faces__item" *ngFor="let face of faces">
+      {{face}}
+    </li>
+  </ul>
+</section>
