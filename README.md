@@ -2,7 +2,7 @@
 
 This is a web app to register your daily mood: happy :) or sad :(.
 
-It's my first attempt to create an app using [Angular](https://angular.io/), but I have only learned a few basics so it's not finished, and for the moment the user can only navigate between the editor and the calendar views. I hope I will be able to continue learning to use this framework and working in this project soon!
+It's my first attempt to create an app using [Angular](https://angular.io/), but I have only learned a few basics so it's not finished, and for the moment the user can only navigate between the editor and the calendar views. I hope I will be able to continue learning to use this framework and working on this project soon!
 
 ## How to use this repo
 
